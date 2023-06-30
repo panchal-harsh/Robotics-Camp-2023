@@ -2,6 +2,12 @@
 <h2 align="center">Dynamic Reconfigure</h2>
 Dynamic reconfigure is very simple conceptually, there are parameters you would like to change, like PID gains but you dont want to stop the simulation and restart you wanna do it online, this also translates to real world hardware as well where you do not have to stop the robot and open its computer to change the PID gains and run it again.
 
+From part 1 you must have cloned twolink, if not then clone it in src by following command
+
+```bash
+cd catkin_ws/src
+git clone https://github.com/tanay-bits/twolink
+```
 
 We would be implementing a small dynamic reconfiguration for the twolink, you may choose to do it for any robot of your choice. you can go through tutorial first and then follow along [Dynamic Reconfigure Tutorial](http://wiki.ros.org/dynamic_reconfigure/Tutorials).
 
